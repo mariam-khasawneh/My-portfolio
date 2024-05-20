@@ -33,7 +33,6 @@
     margin-top: 0px;
     margin-bottom: 24px;
     font-size: 3.338rem;
-    line-height: 4rem;
     font-weight: 800;
     text-align: left;
     -webkit-text-fill-color: transparent;
@@ -49,6 +48,8 @@
     color: #5F665F;
     text-align: justify;
 }
+
+
 
 .main-btn {
     display: inline-block;
