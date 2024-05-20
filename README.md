@@ -1,5 +1,5 @@
 # My-portfolio
-Welcome to my personal portfolio repository! This project showcases my skills, projects Web Designer & Full-Stack Developer.
+Welcome to my personal portfolio repository! This project showcases my skills, projects as a Web Designer & Full-Stack Developer.
 
 
 ## Technologies Used
