@@ -1,13 +1,4 @@
 
-.nav-link-style{
-    color: #CEE5B3 !important;
-}
-
-.nav-link-style:hover , .nav-link-style::after{
-    color: #2E3328 !important;
-}
-
-
 .dark-bg{
     background-color: #191A19 !important;
 }
@@ -16,10 +7,21 @@
     background-color: #292B29;
 }
 
+
+
 /* Nav Start */
 .navbar{
     background: #669A2B;
     background: -webkit-linear-gradient(left,  #669A2B, #669A2B , #44661C), linear-gradient(40deg, #87CC39, #669A2B ,#44661C );
+}
+
+
+.nav-link-style{
+    color: #CEE5B3 !important;
+}
+
+.nav-link-style:hover , .nav-link-style::after{
+    color: #2E3328 !important;
 }
 /* Nav End */
 
@@ -47,9 +49,10 @@
     color: #5F665F;
     text-align: justify;
 }
+/* About End */
 
 
-
+/* button start */
 .main-btn {
     display: inline-block;
     padding: 10px 20px !important;
@@ -62,13 +65,14 @@
     text-align: center;
     cursor: pointer;
   }
-  .main-btn:hover {
+.main-btn:hover {
     background-color: #3A4F16 !important;
   }
-/* About End */
+ /* button end */
+
+
 
 /* Follow start */
-
 .social-media{
     filter:grayscale(100%) contrast(50%);
 }
@@ -79,15 +83,7 @@
 /* Follow End */
 
 
-p::selection {
-    background-color: #3A4F16; 
-    color: white;
-}
 
-
-p{
-    margin-bottom: 0rem !important;
-}
 
 .skill-box{
     border: 3px solid #5F665F ;
@@ -98,6 +94,8 @@ p{
     padding: 8px 16px;
 }
 
+
+/* form start */
 .form-control{
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -118,3 +116,17 @@ p{
     color: #5F665F;
     font-size: 1.25rem;
 }
+/* form end */
+
+
+/* paraghrap style start */
+p::selection {
+    background-color: #3A4F16; 
+    color: white;
+}
+
+
+p{
+    margin-bottom: 0rem !important;
+}
+/* paraghrap style end */

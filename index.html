@@ -398,26 +398,33 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 p-0 ps-lg-3" data-aos="zoom-in-up">
+
+        <form 
+          action="https://formspree.io/f/xeqywwgk"
+          method="POST"
+          class="col-lg-5 p-0 ps-lg-3" 
+          data-aos="zoom-in-up">
           <div class=" d-flex flex-column justify-content-between bg-secodary rounded-4 p-3 p-lg-5 p-md-3 p-sm-3 ">
             <div class="project-content">
               <h1 class="heading-text fs-5 text-center m-0">Get In Touch</h1>
             </div>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+              <input type="text" class="form-control" id="name" placeholder="name" name="name">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="Message" rows="3" name="msg"></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-container main-btn">Send Email</button>
           </div>
-        </div>
+        </form>
+
+        
       </div>
     </div>
   </div>
